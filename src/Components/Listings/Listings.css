@@ -1,0 +1,119 @@
+.listings {
+	background-color: #f0f8ff; /* AliceBlue background */
+	padding: 20px;
+}
+
+.listings-title {
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-family: 'Pixelify Sans', sans-serif;
+}
+
+.sort-button {
+	display: block;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-family: 'Pixelify Sans', sans-serif;
+	font-weight: 100;
+}
+
+.sort-button:hover {
+	background-color: #45a049;
+}
+
+.listings-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.listings-table th,
+.listings-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+	width: 200px;
+}
+
+.listings-table th {
+	background-color: #4caf50;
+	color: white;
+}
+
+.listings-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.listings-table tr:hover {
+	background-color: #ddd;
+}
+
+.favorite-button {
+	background-color: #ffcc00;
+	color: black;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.favorite-button.favorited {
+	background-color: #ff4500;
+	color: white;
+}
+
+.favorite-button:hover {
+	background-color: #ffa500;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.pagination button {
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	background-color: #f0f8ff;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.pagination button.active {
+	background-color: #4caf50;
+	color: white;
+}
+
+.pagination button:hover {
+	background-color: #ddd;
+}
+
+.filter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.filter label {
+	margin-right: 10px;
+	font-weight: 100;
+	font-family: 'Pixelify Sans', sans-serif;
+}
+
+.brand-filter {
+	padding: 5px;
+	font-size: 1em;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	transition: border 0.3s;
+}

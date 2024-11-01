@@ -1,0 +1,55 @@
+.list-preview {
+	background-color: #f6f5f5;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	margin: 20px 0;
+	border-radius: 8px;
+}
+
+.listing-preview-title {
+	color: #333;
+	font-family: 'Pixelify Sans', sans-serif;
+	font-weight: 100;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.listings-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.listings-table th,
+.listings-table td {
+	border: 1px solid #000000;
+	padding: 8px;
+	text-align: center;
+}
+
+.listings-table tr:hover {
+	background-color: #3e3e3e;
+}
+
+.view-all-listings {
+	display: flex;
+	justify-content: center;
+}
+
+.view-all-listings button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s;
+}
+
+.view-all-listings button:hover {
+	background-color: #45a049;
+}
